@@ -2,6 +2,9 @@
 
 Below are the step-by-step instructions I used to test my solution.
 
+You need a C compiler for the SQLite module. See [here](https://github.com/mattn/go-sqlite3?tab=readme-ov-file#go-sqlite3)
+for more information.
+
 ```sh
 podman compose --file docker-compose.yml up --detach
 
